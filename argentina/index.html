@@ -262,7 +262,11 @@ src="https://www.facebook.com/tr?id=601845422954070&ev=PageView&noscript=1"/>
       margin-right: auto;
     ">
      
-    <a href="https://app.dropyfile.net/checkout/4xzexc" class="cta-btn">🌱 Quiero mi guía ahora</a>
+   <a href="https://app.dropyfile.net/checkout/4xzexc" 
+   class="cta-btn"
+   onclick="fbq('track', 'InitiateCheckout', {value: 12000, currency: 'ARS'});">
+   🌱 Quiero mi guía ahora
+   </a>
     </div>
     <div class="hero-mockup">
       <img class="mockup-img"
@@ -421,9 +425,16 @@ src="https://www.facebook.com/tr?id=601845422954070&ev=PageView&noscript=1"/>
         
       </ul>
     </div>
-    <a href="https://app.dropyfile.net/checkout/4xzexc" class="cta-btn" style="font-size: 1.1rem; padding: 18px 44px; display: inline-flex; align-items: center; gap: 12px; background: #009ee3; color: #fff; box-shadow: 0 8px 30px rgba(0,158,227,0.4);">
-      <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="24" cy="24" rx="24" ry="24" fill="#fff"/><path d="M10 24c0-7.732 6.268-14 14-14s14 6.268 14 14-6.268 14-14 14S10 31.732 10 24z" fill="#009ee3"/><path d="M20.5 28.5l-4-4 1.5-1.5 2.5 2.5 7-7 1.5 1.5-9 8.5z" fill="#fff"/></svg>
-      Pagar con Mercado Pago
+    <a href="https://app.dropyfile.net/checkout/4xzexc" 
+     class="cta-btn" 
+     onclick="fbq('track', 'InitiateCheckout', {value: 12000, currency: 'ARS'});"
+     style="font-size: 1.1rem; padding: 18px 44px; display: inline-flex; align-items: center; gap: 12px; background: #009ee3; color: #fff; box-shadow: 0 8px 30px rgba(0,158,227,0.4);">
+      <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="24" cy="24" rx="24" ry="24" fill="#fff"/>
+        <path d="M10 24c0-7.732 6.268-14 14-14s14 6.268 14 14-6.268 14-14 14S10 31.732 10 24z" fill="#009ee3"/>
+        <path d="M20.5 28.5l-4-4 1.5-1.5 2.5 2.5 7-7 1.5 1.5-9 8.5z" fill="#fff"/>
+      </svg>
+        Pagar con Mercado Pago
     </a>
     <div class="guarantee">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
